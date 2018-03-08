@@ -16,14 +16,14 @@ const HeaderWrapper = styled.div`
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
-  maxWidth: 960;
+  max-width: 960px;
   padding: 1.45rem 1.0875rem;
 `
 
 
 const Header = () => (
   <HeaderWrapper>
-    <div>
+    <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -35,7 +35,7 @@ const Header = () => (
           <img src={logo} alt="Mattierocks Logo"/>
         </Link>
       </h1>
-    </div>
+    </HeaderContainer>
     <nav>
         <ul>
           <li>

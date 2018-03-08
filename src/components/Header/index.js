@@ -35,17 +35,17 @@ const Header = () => (
           <img src={logo} alt="Mattierocks Logo"/>
         </Link>
       </h1>
+      <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
+            </li>
+          </ul>
+      </nav>
     </HeaderContainer>
-    <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-        </ul>
-    </nav>
   </HeaderWrapper>
 )
 

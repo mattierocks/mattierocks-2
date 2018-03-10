@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import logo from '../../images/logo.png'
 
 const HeaderWrapper = styled.div`
-  background: whitesmoke;
+  background: white;
   margin-bottom: 1.45rem;
   h1 {
     img {

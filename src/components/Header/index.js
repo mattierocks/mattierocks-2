@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import logo from '../../images/logo.png'
 
 const HeaderWrapper = styled.div`
-  background: white;
+  background: whitesmoke;
   margin-bottom: 1.45rem;
   h1 {
     img {
@@ -50,3 +50,15 @@ const Header = () => (
 )
 
 export default Header
+
+export const query = graphql`
+query SiteMeta {
+  site {
+    siteMetadata {
+      title
+      desc
+    }
+  }
+}
+`
+
